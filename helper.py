@@ -35,10 +35,11 @@ def create_coins(board):
         for y in range(len(board[x])-1):
             if board[y][x] == 0:
                 coins.append((x,y))
-    
+    print(coins)
     for i in special_coins_pos:
         coins.remove(i)
     # for j in center_pos:
+    #     j = (j[1], j[0])
     #     print(j)
     #     coins.remove(j)
 

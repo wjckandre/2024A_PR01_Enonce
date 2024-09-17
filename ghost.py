@@ -33,7 +33,6 @@ class Ghost:
             next_y = self.pos[1] + self.direction[1] * self.speed
             
             next_rect = pygame.Rect(next_x, next_y, GHOST_SIZE[0], GHOST_SIZE[1])
-            print(self.check_collision(next_rect))
             if self.check_collision(next_rect) == False:
                 self.rect = next_rect
                 self.pos = (next_x, next_y)
