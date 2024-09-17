@@ -54,7 +54,7 @@ while running:
 
     # Rafraîchir l'affichage
     pygame.display.flip()
-    pygame.time.wait(100)  # Réduit la vitesse pour mieux voir les déplacements
+    pygame.time.wait(200)  # Réduit la vitesse pour mieux voir les déplacements
 
 pygame.quit()
 sys.exit()

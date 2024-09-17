@@ -117,7 +117,7 @@ class Game:
         new_x = self.pacman.x + dx
         new_y = self.pacman.y + dy
 
-        if self.board[new_x][new_y] == 1:
+        if self.board[new_y][new_x] == 1:
             return False
         else:
             return True

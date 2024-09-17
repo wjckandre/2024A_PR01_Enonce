@@ -37,3 +37,5 @@ class End:
         pygame.display.flip()
 
         pygame.time.wait(5000)  # Wait for 5 seconds before closing the window
+        pygame.quit()
+        
